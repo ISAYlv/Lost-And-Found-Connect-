@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile | Lost & Found Connect</title>
+</head>
+
+<body class="page-profile-html">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="Designer.png" alt="Lost and Found Connect Logo">
+
+            <div class="logo-text">
+                <h1>Lost & Found <span>Connect</span></h1>
+                <p>Find. Report. Reconnect.</p>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="home.png" alt="">
+                Home
+            </a>
+
+            <a href="search.html">
+                <img src="search.png" alt="">
+                Search
+            </a>
+
+            <a href="submit-report.html">
+                <img src="reporrt.webp" alt="">
+                Submit Report
+            </a>
+
+            <a href="my-posts.html">
+                <img src="image-removebg-preview.png" alt="">
+                My Posts
+            </a>
+
+            <a href="notifications.html">
+                <img src="notif.png" alt="">
+                Notifications
+            </a>
+
+            <a href="profile.html" class="active">
+                <img src="profile.webp" alt="">
+                Profile
+            </a>
+        </nav>
+
+        <div class="header-account">
+            <a href="login.html" class="login-button">
+                Log In / Sign Up
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-container">
+
+        <div class="page-heading">
+            <h2>My Profile</h2>
+            <p>View and manage your personal and account information.</p>
+        </div>
+
+
+        <!-- PROFILE HEADER -->
+        <section class="profile-header">
+
+            <div class="profile-user">
+
+                <div class="profile-picture">
+                    <img src="profile.webp" alt="Profile Picture">
+                </div>
+
+                <div class="profile-user-info">
+                    <h3 contenteditable="true" title="Click to edit">
+                        Juan Dela Cruz
+                    </h3>
+
+                    <p contenteditable="true" title="Click to edit">
+                        juan.delacruz@email.com
+                    </p>
+
+                    <span class="member-label">
+                        REGISTERED MEMBER
+                    </span>
+                </div>
+
+            </div>
+
+            <a href="#edit-information" class="edit-profile-button">
+                Edit Profile
+            </a>
+
+        </section>
+
+
+        <!-- EDIT PERSONAL INFORMATION -->
+        <section class="edit-information-area" id="edit-information">
+
+            <div class="edit-area-heading">
+                <div>
+                    <h3>Edit Personal Information</h3>
+                    <p>Click the information below to edit it.</p>
+                </div>
+
+                <a href="#" class="close-edit">Close</a>
+            </div>
+
+            <div class="editable-fields">
+
+                <div class="editable-field">
+                    <label>Full Name</label>
+                    <p contenteditable="true">Juan Dela Cruz</p>
+                </div>
+
+                <div class="editable-field">
+                    <label>Email Address</label>
+                    <p contenteditable="true">juan.delacruz@email.com</p>
+                </div>
+
+                <div class="editable-field">
+                    <label>Contact Number</label>
+                    <p contenteditable="true">0912 345 6789</p>
+                </div>
+
+                <div class="editable-field">
+                    <label>Home Address</label>
+                    <p contenteditable="true">Tanauan City, Batangas</p>
+                </div>
+
+            </div>
+
+            <p class="editing-note">
+                Your edits are temporary and will reset when you refresh the page.
+            </p>
+
+        </section>
+
+
+        <!-- PROFILE INFORMATION -->
+        <div class="profile-layout">
+
+            <!-- PERSONAL INFORMATION -->
+            <section class="profile-card">
+
+                <h3>Personal Information</h3>
+
+                <div class="info-item">
+                    <label>FULL NAME</label>
+                    <p contenteditable="true" title="Click to edit">
+                        Juan Dela Cruz
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <label>EMAIL ADDRESS</label>
+                    <p contenteditable="true" title="Click to edit">
+                        juan.delacruz@email.com
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <label>CONTACT NUMBER</label>
+                    <p contenteditable="true" title="Click to edit">
+                        0912 345 6789
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <label>HOME ADDRESS</label>
+                    <p contenteditable="true" title="Click to edit">
+                        Tanauan City, Batangas
+                    </p>
+                </div>
+
+            </section>
+
+
+            <!-- ACCOUNT INFORMATION -->
+            <section class="profile-card">
+
+                <h3>Account Information</h3>
+
+                <div class="account-item">
+
+                    <div>
+                        <p>Email Address</p>
+                        <p contenteditable="true" title="Click to edit">
+                            juan.delacruz@email.com
+                        </p>
+                    </div>
+
+                    <a href="#change-email">Change</a>
+
+                </div>
+
+
+                <div class="account-item">
+
+                    <div>
+                        <p>Password</p>
+                        <p>••••••••••</p>
+                    </div>
+
+                    <a href="#change-password">Change</a>
+
+                </div>
+
+
+                <div class="account-item">
+
+                    <div>
+                        <p>Account Status</p>
+                        <p>Active</p>
+                    </div>
+
+                    <span class="member-label">ACTIVE</span>
+
+                </div>
+
+
+                <div class="account-item">
+
+                    <div>
+                        <p>Member Since</p>
+                        <p>November 2026</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- CHANGE EMAIL AREA -->
+        <section class="account-edit-area" id="change-email">
+
+            <div class="edit-area-heading">
+                <div>
+                    <h3>Change Email Address</h3>
+                    <p>Edit your email address below.</p>
+                </div>
+
+                <a href="#" class="close-edit">Close</a>
+            </div>
+
+            <label for="new-email">New Email Address</label>
+
+            <input
+                type="email"
+                id="new-email"
+                value="juan.delacruz@email.com"
+                placeholder="Enter new email address"
+            >
+
+            <p class="editing-note">
+                This field is editable, but changing it will not update an actual account.
+            </p>
+
+        </section>
+
+
+        <!-- CHANGE PASSWORD AREA -->
+        <section class="account-edit-area" id="change-password">
+
+            <div class="edit-area-heading">
+                <div>
+                    <h3>Change Password</h3>
+                    <p>Enter your password details below.</p>
+                </div>
+
+                <a href="#" class="close-edit">Close</a>
+            </div>
+
+            <label for="current-password">Current Password</label>
+            <input
+                type="password"
+                id="current-password"
+                placeholder="Enter current password"
+            >
+
+            <label for="new-password">New Password</label>
+            <input
+                type="password"
+                id="new-password"
+                placeholder="Enter new password"
+            >
+
+            <label for="confirm-password">Confirm New Password</label>
+            <input
+                type="password"
+                id="confirm-password"
+                placeholder="Confirm new password"
+            >
+
+            <p class="editing-note">
+                These fields are for demonstration only. No actual password is changed.
+            </p>
+
+        </section>
+
+
+        <!-- REPORT SUMMARY -->
+        <section class="report-summary">
+
+            <h3>My Report Summary</h3>
+
+            <div class="summary-grid">
+
+                <div class="summary-box">
+                    <h4>5</h4>
+                    <p>Total Reports</p>
+                </div>
+
+                <div class="summary-box">
+                    <h4>3</h4>
+                    <p>Lost Items</p>
+                </div>
+
+                <div class="summary-box">
+                    <h4>2</h4>
+                    <p>Found Items</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACCOUNT ACTIONS -->
+        <section class="account-actions">
+
+            <h3>Account Settings</h3>
+
+            <div class="action-links">
+
+                <a href="#edit-information">
+                    Edit Personal Information
+                </a>
+
+                <a href="#change-password">
+                    Change Password
+                </a>
+
+                <a href="index.html" class="logout-button">
+                    Log Out
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>© 2026 Lost & Found Connect. All Rights Reserved.</p>
+        <p>Find. Report. Reconnect.</p>
+
+    </footer>
+
+</body>
+</html>
